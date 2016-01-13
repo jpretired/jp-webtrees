@@ -1,0 +1,539 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fancy Treeview\n"
+"POT-Creation-Date: 2015-07-14 06:54+0200\n"
+"PO-Revision-Date: 2015-08-18 12:31+0100\n"
+"Last-Translator: Josef Prause <josef.prause@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: translate;noop;plural:1,2;translateContext:2,1c\n"
+"Language: cs\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. I18N: Date prefix for date qualifications, like estimated, about, calculated, from, between etc. Leave the string empty if your language don't need such a prefix. If you do need this prefix, add an extra space at the end of the string to separate the prefix from the date. It is correct the source text is empty, because the source language (en-US) does not need this string.
+#: src/FancyTreeviewClass.php:870
+msgctxt ""
+"prefix before dates with date qualifications, followed right after the words "
+"birth, death, married, divorced etc. Read the comment for more details."
+msgid " "
+msgstr ""
+
+#. I18N: Warning whenu using the “Check relationship between partners” configuration setting
+#: src/Template/AdminTemplate.php:395
+msgid ""
+"<strong>Note</strong>: this option can be time and/or memory consuming, "
+"especially on large trees. It can cause very slow page loading or an "
+"’execution time out error’ on your server. If you notice such a behavior, "
+"reduce the number of generation blocks to load at once or don’t use it in "
+"combination with the option to show singles (see the previous options). If "
+"you still experience any problems, don’t use this option at all."
+msgstr ""
+
+#. I18N: Description of the module
+#: module.php:90
+msgid ""
+"A Fancy overview of the descendants of one family(branch) in a narrative way."
+msgstr "Přehled potomků jedné rodiny (větve) ve vyprávěcí formě"
+
+#: src/Template/PageTemplate.php:66
+msgid "Change root person"
+msgstr "Nastavte výchozí osobu"
+
+#: src/Template/AdminTemplate.php:387
+msgid "Check relationship between partners"
+msgstr ""
+
+#. I18N: %s is the surname of the root individual
+#: module.php:346 src/FancyTreeviewClass.php:165 src/Schema/Migration0.php:42
+#: src/Template/AdminTemplate.php:283
+#, php-format
+msgid "Descendants of the %s family"
+msgstr "Potomci rodu %s"
+
+#: module.php:178
+#, php-format
+msgid "Error: A person with ID %s does not exist in this tree"
+msgstr ""
+
+#: module.php:159
+#, php-format
+msgid "Error: A root person with ID %s already exists"
+msgstr ""
+
+#: module.php:157
+msgid "Error: The root person belonging to this surname already exists"
+msgstr ""
+
+#: module.php:149
+msgid "Error: The surname you entered doesn’t exist in this tree."
+msgstr ""
+
+#: src/Template/PdfTemplate.php:89
+msgid "Error: the pdf file could not be generated."
+msgstr ""
+
+#: module.php:338
+msgid "Family tree overview"
+msgstr "Popis rodinného stromu"
+
+#. I18N: Name of the module
+#: module.php:81 src/Template/AdminTemplate.php:40
+msgid "Fancy Treeview"
+msgstr "Popis generací"
+
+#: src/Template/PageTemplate.php:57
+msgid "Generate PDF"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:316
+msgid "Go"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:517
+msgid "He had a relation with"
+msgstr ""
+
+#. I18N: %s is a number
+#: src/FancyTreeviewClass.php:444
+#, php-format
+msgid "He married %s times"
+msgstr "Oženil se %skrát"
+
+#: src/FancyTreeviewClass.php:698
+msgctxt "PAST"
+msgid "He was born"
+msgstr "Narodil se"
+
+#: src/FancyTreeviewClass.php:700
+msgctxt "PRESENT"
+msgid "He was born"
+msgstr "Narodil se"
+
+#. I18N: Help text for the “Resize thumbnails” configuration setting
+#: src/Template/AdminTemplate.php:451
+msgid ""
+"Here you can choose to resize the default webtrees thumbnails especially for "
+"the Fancy Treeview pages. You can set a custom size in percentage or in "
+"pixels. If you choose “no” the default webtrees thumbnails will be used with "
+"the formats you have set on the tree configuration page."
+msgstr ""
+
+#. I18N: Help text for the “Select your country” configuration setting
+#: src/Template/AdminTemplate.php:429
+msgid ""
+"If you have ticked the “Show places” option but NOT the option to abbreviate "
+"placenames, you can set your own country here. Full places will be listed on "
+"the Fancy Treeview pages, but when a place includes the name of your own "
+"country, this name will be left out. If you don’t select a country then all "
+"countries will be shown, including your own."
+msgstr ""
+
+#. I18N: Help text for the “Use default GEDCOM settings to abbreviate place names” configuration setting
+#: src/Template/AdminTemplate.php:416
+msgid ""
+"If you have ticked the “Show places” option, you can choose to use the "
+"default GEDCOM settings to abbreviate placenames. If you don’t set this "
+"option, full place names will be shown."
+msgstr ""
+
+#: src/Template/AdminTemplate.php:365
+msgid "Number of generation blocks to show"
+msgstr ""
+
+#: src/Template/AdminTemplate.php:343
+#, php-format
+msgid "Options for %s"
+msgstr ""
+
+#: src/Template/AdminTemplate.php:140
+msgid "Or enter an ID"
+msgstr ""
+
+#: src/Template/AdminTemplate.php:167 src/Template/AdminTemplate.php:237
+msgid "Page title"
+msgstr ""
+
+#: src/Template/AdminTemplate.php:93
+msgid "Pages"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:352
+msgid "Read more"
+msgstr ""
+
+#: src/Template/AdminTemplate.php:445
+msgid "Resize thumbnails"
+msgstr ""
+
+#: src/Template/AdminTemplate.php:163 src/Template/AdminTemplate.php:233
+msgid "Root person"
+msgstr "Výchozí osoba"
+
+#: src/Template/AdminTemplate.php:147 src/Template/PageTemplate.php:71
+msgid "Search ID by name"
+msgstr "Vyhledat ID podle jména"
+
+#: src/Template/AdminTemplate.php:115
+msgid "Search root person"
+msgstr ""
+
+#: src/Template/AdminTemplate.php:423
+msgid "Select your country"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:520
+msgid "She had a relation with"
+msgstr ""
+
+#. I18N: %s is a number
+#: src/FancyTreeviewClass.php:450
+#, php-format
+msgid "She married %s times"
+msgstr "Vdala se %skrát"
+
+#: src/FancyTreeviewClass.php:698
+msgctxt "PAST"
+msgid "She was born"
+msgstr "Narodila se"
+
+#: src/FancyTreeviewClass.php:700
+msgctxt "PRESENT"
+msgid "She was born"
+msgstr "Narodila se"
+
+#: src/Template/AdminTemplate.php:494
+msgid "Show PDF icon?"
+msgstr ""
+
+#: src/Template/AdminTemplate.php:503
+msgid "Show a Fancy Treeview tab on the individual page"
+msgstr ""
+
+#: src/Template/AdminTemplate.php:485
+msgid "Show form to change start person"
+msgstr ""
+
+#: src/Template/AdminTemplate.php:436
+msgid "Show occupations"
+msgstr ""
+
+#: src/Template/AdminTemplate.php:401
+msgid "Show places?"
+msgstr ""
+
+#: src/Template/AdminTemplate.php:376
+msgid "Show single persons"
+msgstr ""
+
+#: src/Template/AdminTemplate.php:165 src/Template/AdminTemplate.php:235
+msgid "Surname in page title"
+msgstr ""
+
+#. I18N: %s is an ordinal
+#: src/FancyTreeviewClass.php:446
+#, php-format
+msgid "The %s time he married"
+msgstr "Po%s si vzal"
+
+#. I18N: %s is an ordinal
+#: src/FancyTreeviewClass.php:452
+#, php-format
+msgid "The %s time she married"
+msgstr "Po%s si vzala"
+
+#. I18N: %s is an ordinal
+#: src/FancyTreeviewClass.php:458
+#, php-format
+msgid "The %s time this individual married"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:360
+msgid "The details of this generation are private."
+msgstr "Podrobnosti o této generaci jsou soukromé."
+
+#: src/Template/AdminTemplate.php:350
+msgid "The options for this tree are succesfully reset to the default settings"
+msgstr ""
+
+#: src/Template/AdminTemplate.php:349
+msgid "The options for this tree are succesfully saved"
+msgstr ""
+
+#: src/Template/PageTemplate.php:58
+msgid "The pdf contains only visible generation blocks."
+msgstr ""
+
+#: src/Template/AdminTemplate.php:312
+#, php-format
+msgid "The person with root id %s doesn’t exist anymore in this tree"
+msgstr ""
+
+#: src/Template/AdminTemplate.php:225
+msgid "The settings for this tree are succesfully updated"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:523
+msgid "This individual has a relation with"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:470
+msgid "This individual married"
+msgstr ""
+
+#. I18N: %s is a number
+#: src/FancyTreeviewClass.php:456
+#, php-format
+msgid "This individual married %s times"
+msgstr ""
+
+#. I18N: Help text for the “Number of generation blocks to show” configuration setting
+#: src/Template/AdminTemplate.php:370
+msgid ""
+"This option is especially usefull for large trees. When you notice a slow "
+"page load, here you can set the number of generation blocks to load at once "
+"to a lower level. Below the last generation block a button will appear to "
+"add the next set of generation blocks. The new blocks will be added to the "
+"blocks already loaded. Clicking on a “follow” link in the last visible "
+"generation block, will also load the next set of generation blocks."
+msgstr ""
+
+#: src/Template/AdminTemplate.php:456
+msgid "Thumbnail size"
+msgstr ""
+
+#. I18N: Help text for the “Show single persons” configuration setting
+#: src/Template/AdminTemplate.php:381
+msgid ""
+"Turn this option on if you want to show single persons in the generation "
+"blocks. Single persons are persons without partner and children. With this "
+"option turned on, every child of a family will be shown in a detailed way in "
+"the next generation block."
+msgstr ""
+
+#: src/Template/AdminTemplate.php:410
+msgid "Use default GEDCOM settings to abbreviate place names?"
+msgstr ""
+
+#: src/Template/AdminTemplate.php:356
+msgid "Use fullname in menu"
+msgstr ""
+
+#: src/Template/AdminTemplate.php:476
+msgid "Use square thumbnails"
+msgstr ""
+
+#. I18N: Help text for creating Fancy Treeview pages
+#: src/Template/AdminTemplate.php:105
+msgid ""
+"Use the search form below to search for a root person. After a successful "
+"search the Fancy Treeview page will be automatically created. You can add as "
+"many root persons as you want."
+msgstr ""
+
+#. I18N: Help text for the “Check relationship between partners” configuration setting
+#: src/Template/AdminTemplate.php:393
+msgid ""
+"With this option turned on, the script checks if a (married) couple has the "
+"same ancestors. If a relationship between the partners is found, a text will "
+"appear between brackets after the spouses’ name to indicate the blood "
+"relationship."
+msgstr ""
+
+#: src/FancyTreeviewClass.php:598
+msgctxt "FEMALE"
+msgid "adopted child"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:601
+msgctxt "MALE"
+msgid "adopted child"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:663
+msgid "adopted child of"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:654
+msgid "adopted daughter of"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:645
+msgid "adopted son of"
+msgstr ""
+
+#. I18N: Note the space at the end of the string
+#: src/FancyTreeviewClass.php:505 src/FancyTreeviewClass.php:544
+#: src/FancyTreeviewClass.php:557 src/FancyTreeviewClass.php:574
+#: src/FancyTreeviewClass.php:676 src/FancyTreeviewClass.php:726
+msgid "and "
+msgstr "a "
+
+#. I18N: %s is the age of death in days/months; %s is a string, e.g. at the age of 2 months
+#: src/FancyTreeviewClass.php:743
+#, php-format
+msgctxt "age in days/months"
+msgid "at the age of %s"
+msgstr "ve věku %s"
+
+#. I18N: %s is the age of death in years; %s is a number, e.g. at the age of 40
+#: src/FancyTreeviewClass.php:745
+#, php-format
+msgctxt "age in years"
+msgid "at the age of %s"
+msgstr "ve věku %s let"
+
+#: src/FancyTreeviewClass.php:1081
+msgid "cancel"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:665
+msgid "child of"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:727
+msgid "eighth"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:434
+msgid "fifth"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:1079
+msgid "follow"
+msgstr "přejdi na"
+
+#: src/FancyTreeviewClass.php:588
+msgctxt "FEMALE"
+msgid "foster child"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:591
+msgctxt "MALE"
+msgid "foster child"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:661
+msgid "foster child of"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:652
+msgid "foster daughter of"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:643
+msgid "foster son of"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:433
+msgid "fourth"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:565
+msgctxt "One parent/multiple children"
+msgid "had"
+msgstr "měl(a)"
+
+#: src/FancyTreeviewClass.php:547 src/FancyTreeviewClass.php:567
+msgctxt "One parent/one child"
+msgid "had"
+msgstr "měl(a)"
+
+#: src/FancyTreeviewClass.php:559
+msgctxt "Two parents/multiple children"
+msgid "had"
+msgstr "měli"
+
+#: src/FancyTreeviewClass.php:545 src/FancyTreeviewClass.php:561
+msgctxt "Two parents/one child"
+msgid "had"
+msgstr "měli"
+
+#. I18N: Note the space at the end of the string
+#: src/FancyTreeviewClass.php:876
+msgctxt "before dateformat mmm yyyy"
+msgid "in "
+msgstr "v měsíci "
+
+#. I18N: Note the space at the end of the string
+#: src/FancyTreeviewClass.php:879
+msgctxt "before dateformat yyyy"
+msgid "in "
+msgstr "v roce "
+
+#. I18N: Note the space at the end of the string
+#: src/FancyTreeviewClass.php:897
+msgctxt "before placesnames"
+msgid "in "
+msgstr "v "
+
+#: src/FancyTreeviewClass.php:438
+msgid "ninth"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:1080 src/Template/AdminTemplate.php:153
+msgid "ok"
+msgstr ""
+
+#. I18N: Note the space at the end of the string
+#: src/FancyTreeviewClass.php:873
+msgctxt "before dateformat dd-mm-yyyy"
+msgid "on "
+msgstr "dne "
+
+#: src/Template/AdminTemplate.php:469
+msgid "percent"
+msgstr ""
+
+#: src/Template/AdminTemplate.php:133
+msgid "search"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:431
+msgid "second"
+msgstr "druhé"
+
+#: src/FancyTreeviewClass.php:436
+msgid "seventh"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:435
+msgid "sixth"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:439
+msgid "tenth"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:432
+msgid "third"
+msgstr ""
+
+#: src/FancyTreeviewClass.php:705
+msgctxt "PAST (FEMALE)"
+msgid "was born"
+msgstr "narodila se"
+
+#: src/FancyTreeviewClass.php:705
+msgctxt "PAST (MALE)"
+msgid "was born"
+msgstr "narodil se"
+
+#: src/FancyTreeviewClass.php:707
+msgctxt "PRESENT (FEMALE)"
+msgid "was born"
+msgstr "narozená"
+
+#: src/FancyTreeviewClass.php:707
+msgctxt "PRESENT (MALE)"
+msgid "was born"
+msgstr "narozený"
+
+#: src/FancyTreeviewClass.php:505
+msgid "were divorced"
+msgstr "rozvedeni"
