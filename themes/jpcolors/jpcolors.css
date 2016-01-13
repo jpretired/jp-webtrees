@@ -13,16 +13,19 @@ line-height: 140%;
 .person_boxF, .action_headerF {
 background-color : #FFFFD6; // pův. #fdd
 }
-/* Interaktivní strom: */
+// Interaktivní strom:
+//
 #tv_tree .tvF{
 background-color:#FFFFD6 !important;
 }
-/* Modul Vytux_pages: - úprava css */
+// Modul Vytux_pages: - úprava css
+//
 div#pages-container {width:80% !important;}
 div#outer_pages_container {padding-left: 3% !important;padding-right: 3% !important;}
 div#pages-container .ui-tabs-nav li {margin: 3px; padding: 4px; font-weight: bold;}
 
-/* Stránka Terminologie (Vytux_pages) */
+// Modul vytux_pages - stránka Terminologie:
+//
 table#definice td {
 	vertical-align: top;
 	padding-left: 5px;
@@ -62,3 +65,6 @@ table#kdo-je-kdo td {
 table#kdo-je-kdo .col-1-kdo {
         width: 50%;
         }
+// Modul vytux_gallery3 - navigační lišta:
+//
+div#gallery-container .ui-tabs-nav li {margin: 3px; padding: 4px; font-weight: bold;}        
