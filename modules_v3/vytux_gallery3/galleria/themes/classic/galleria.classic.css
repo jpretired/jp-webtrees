@@ -5,7 +5,7 @@
 .galleria-theme-classic {
     position: relative;
     overflow: hidden;
-    background: #F4EAD5; //JP
+    background: #000; //JP
 }
 .galleria-theme-classic img {
     -moz-user-select: none;
@@ -141,9 +141,7 @@
     position: absolute;
     left: 10px;
     z-index: 2;
-    background-position: 0 46px;
-    background-color: #dfc286; // JP
-}
+    background-position: 0 46px;}
 .galleria-theme-classic .galleria-image-nav-right {
     left: auto;
     right: 10px;
@@ -172,9 +170,7 @@
     width: 23px;
     z-index: 3;
     opacity: .8;
-    filter: alpha(opacity=80);
-    background-color: #dfc286; // JP
-}
+    filter: alpha(opacity=80);}
 .galleria-theme-classic .galleria-thumb-nav-right {
     background-position: -578px 5px;
     border-right: none;
