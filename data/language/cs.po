@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jpwebtrees\n"
+"POT-Creation-Date: 2015-10-19 09:39+0100\n"
+"PO-Revision-Date: 2016-01-20 17:28+0100\n"
+"Last-Translator: Josef Prause <josef.prause@gmail.com>\n"
+"Language-Team: JP <josef.prause@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Language: cs_CZ\n"
+
+#: app/Functions/FunctionsPrint.php:119 app/Note.php:107
+msgid "…"
+msgstr "…"
+
+#: app/Family.php:351 app/Family.php:365 app/Individual.php:1224
+#: app/Individual.php:1313 autocomplete.php:164 autocomplete.php:405
+#: autocomplete.php:470 famlist.php:92 famlist.php:225 indilist.php:93
+#: indilist.php:226
+msgctxt "Unknown given name"
+msgid "…"
+msgstr "__?__"
+
+#: app/Family.php:351 app/Family.php:365 app/Individual.php:1223
+#: app/Individual.php:1313 app/Module/FamiliesSidebarModule.php:151
+#: app/Module/IndividualSidebarModule.php:152 autocomplete.php:164
+#: autocomplete.php:405 autocomplete.php:470 famlist.php:83 famlist.php:103
+#: famlist.php:135 indilist.php:84 indilist.php:104 indilist.php:136
+msgctxt "Unknown surname"
+msgid "…"
+msgstr "__?__"
+
+#. I18N: %s is the name of a family tree
+#: admin_trees_manage.php:196
+#, php-format
+msgid "This will delete all the genealogy data from “%s” and replace it with data from a GEDCOM file."
+msgstr "<span style=\"color:red;\">Vymaže všechna rodokmenová data z „%s“ a nahradí je daty z jiného GEDCOMu.</span>"
