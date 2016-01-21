@@ -33,7 +33,7 @@ class CensusOfCzechRepublic extends Census implements CensusPlaceInterface {
 
 	/**
 	 * Where did this census occur, in GEDCOM format.
-	 *
+	 *   
 	 * @return string
 	 */
 	public function censusPlace() {
