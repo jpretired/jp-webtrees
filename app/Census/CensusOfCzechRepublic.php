@@ -37,6 +37,6 @@ class CensusOfCzechRepublic extends Census implements CensusPlaceInterface {
 	 * @return string
 	 */
 	public function censusPlace() {
-		return 'Česko (Česká republika)';
+		return 'Česko';
 	}
 }
