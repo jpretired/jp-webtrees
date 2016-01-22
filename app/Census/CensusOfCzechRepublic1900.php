@@ -18,7 +18,7 @@ namespace Fisharebest\Webtrees\Census;
 /**
  * Definitions for a census
  */
-class CensusOfCzechRepublic1900 extends CensusOfCzechRepublic implements CensusInterface {00
+class CensusOfCzechRepublic1900 extends CensusOfCzechRepublic implements CensusInterface {
 	/**
 	 * When did this census occur.
 	 *
