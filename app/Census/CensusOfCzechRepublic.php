@@ -27,6 +27,7 @@ class CensusOfCzechRepublic extends Census implements CensusPlaceInterface {
 	public function allCensusDates() {
 		return array(
 			new CensusOfCzechRepublic1880(),
+			new CensusOfCzechRepublic1900(),
 			new CensusOfCzechRepublic1921(),
 		);
 	}
