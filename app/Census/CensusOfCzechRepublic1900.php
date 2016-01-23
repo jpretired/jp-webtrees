@@ -46,7 +46,7 @@ class CensusOfCzechRepublic1900 extends CensusOfCzechRepublic implements CensusI
 			new CensusColumnNull($this, 'Jazyk', 'Jazyk v obcování'),
 			new CensusColumnOccupation($this, 'Povolání', ''),
 			new CensusColumnNull($this, 'Postavení', 'Postavení v zaměstnání'),
-			new CensusColumnNull($this, '', ''),
+			new CensusColumnNull($this, 'Poznámka', 'Je-li třeba něco dodat'),
 			new CensusColumnNull($this, '', ''),
 			new CensusColumnNull($this, '', ''),
 		);
