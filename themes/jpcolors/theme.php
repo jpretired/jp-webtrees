@@ -83,8 +83,9 @@ class JpColors extends ColorsTheme {
 		return $css_files;
 	}
 
-
-        /** {@inheritdoc} */
+/* Tuto funkci jsem tady měl pro nahrání google fontu. Ponechávám jako komentář
+ * pro případné využití.
+         {@inheritdoc} 
 	public function hookHeaderExtraContent() {
 		try {
 			$html = '<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic,600,600italic"'
@@ -98,6 +99,8 @@ class JpColors extends ColorsTheme {
 			return parent::hookHeaderExtraContent();
 		}
 	}
+	
+*/
 	/**
 	 * This function is copied from App/Theme/ColorsTheme
 	 *
