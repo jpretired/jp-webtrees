@@ -464,7 +464,7 @@ class VytuxPagesModule extends webtrees\Module\AbstractModule implements webtree
 
 	private function show() {
 		global $controller, $WT_TREE;
-		$items_header_description = '<img src="mediafirewall.php?mid=M106" align="left" height="96" hspace="20px" vspace="10px"><p><br />Na této stránce se nacházejí všeobecné informace, které pokládáme za užitečné při bádání v historii rodů, zajímavé nebo zábavné. Časem mohou přibýt další.</p>';//Add your own header here.
+		$items_header_description = '<img src="mediafirewall.php?mid=M106" align="left" id="obrazek-odkazy" height="96"><p><br />Na této stránce se nacházejí všeobecné informace, které pokládáme za užitečné při bádání v historii rodů, zajímavé nebo zábavné. Časem mohou přibýt další.</p>';//Add your own header here.
 		$items_id = webtrees\Filter::get('pages_id');
 		$controller = new webtrees\Controller\PageController();
 		$controller->setPageTitle(webtrees\I18N::translate('Poznatky a pomůcky'))//Edit this line for a different summary page title

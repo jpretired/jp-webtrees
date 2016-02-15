@@ -82,25 +82,6 @@ class JpColors extends ColorsTheme {
 
 		return $css_files;
 	}
-
-/* Tuto funkci jsem tady měl pro nahrání google fontu. Ponechávám jako komentář
- * pro případné využití.
-         {@inheritdoc} 
-	public function hookHeaderExtraContent() {
-		try {
-			$html = '<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic,600,600italic"'
-                                . ' rel="stylesheet" type="text/css">';
-			if (WT_SCRIPT_NAME == 'individual.php' || Filter::get('mod_action') === 'treeview') {
-				$html .= '<link rel="stylesheet" type="text/css" href="' . WT_BASE_URL . 'themes/jpcolors/treeview.css">';
-			}
-                        
-			return $html;
-		} catch (\Exception $ex) {
-			return parent::hookHeaderExtraContent();
-		}
-	}
-	
-*/
 	/**
 	 * This function is copied from App/Theme/ColorsTheme
 	 *

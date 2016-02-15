@@ -464,7 +464,7 @@ class Vytux1PagesModule extends webtrees\Module\AbstractModule implements webtre
 
 	private function show() {
 		global $controller, $WT_TREE;
-		$items_header_description = '<img src="mediafirewall.php?mid=M105" align="left" height="96" hspace="20px" vspace="10px"><p><br />Zde je nashromážděna sbírka odkazů, které mohou být užitečné nebo zajímavé jak pro členy Naší rodiny, tak pro jiné badatele v rodinné historii. Mnohé z nich používáme pravidelně. Jejich obsahová úroveň je proměnlivá, jak se dá očekávat u tak rozsáhlého výběru, a za jejich obsah neručíme.</p><p>Odkazy čas od času testujeme - ale odkazy měnívají adresu nebo mizí. Pokud narazíte na neplatný odkaz, dejte nám vědět na adresu technické podpory na stránce vespod.</p>';//Add your own header here.
+		$items_header_description = '<img src="mediafirewall.php?mid=M105" align="left" height="96" id="obrazek-odkazy"><p><br />Zde je nashromážděna sbírka odkazů, které mohou být užitečné nebo zajímavé jak pro členy Naší rodiny, tak pro jiné badatele v rodinné historii. Mnohé z nich používáme pravidelně. Jejich obsahová úroveň je proměnlivá, jak se dá očekávat u tak rozsáhlého výběru, a za jejich obsah neručíme.</p><p>Odkazy čas od času testujeme - ale odkazy měnívají adresu nebo mizí. Pokud narazíte na neplatný odkaz, dejte nám vědět na adresu technické podpory na stránce vespod.</p>';//Add your own header here.
 		$items_id = webtrees\Filter::get('pages_id');
 		$controller = new webtrees\Controller\PageController();
 		$controller->setPageTitle(webtrees\I18N::translate('Odkazy do okolního světa'))//Edit this line for a different summary page title
