@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fancy Treeview\n"
 "POT-Creation-Date: 2015-07-14 06:54+0200\n"
-"PO-Revision-Date: 2016-03-05 16:30+0100\n"
+"PO-Revision-Date: 2016-03-05 20:46+0100\n"
 "Last-Translator: Josef Prause <josef.prause@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr ""
 #: module.php:90
 msgid ""
 "A Fancy overview of the descendants of one family(branch) in a narrative way."
-msgstr "Přehled potomků jedné rodiny (větve) ve vyprávěcí formě"
+msgstr "Přehled potomků jedné rodiny (větve) v popisné formě"
 
 #: src/Template/PageTemplate.php:66
 msgid "Change root person"
@@ -48,6 +48,10 @@ msgstr "Nastavte výchozí osobu"
 #: src/Template/AdminTemplate.php:387
 msgid "Check relationship between partners"
 msgstr ""
+
+#: fancy_treeview_pdf/src/FancyTreeviewPdfClass.php:46
+msgid "Creating PDF file. This process may take a while. Please wait..."
+msgstr "Vytváří se soubor PDF. Proces může chvíli trvat. Prosím, čekejte..."
 
 #. I18N: %s is the surname of the root individual
 #: module.php:346 src/FancyTreeviewClass.php:165 src/Schema/Migration0.php:42
@@ -93,7 +97,7 @@ msgstr ""
 
 #: src/FancyTreeviewClass.php:316
 msgid "Go"
-msgstr ""
+msgstr "Provést"
 
 #: src/FancyTreeviewClass.php:517
 msgid "He had a relation with"
