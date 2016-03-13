@@ -18,14 +18,14 @@ namespace Fisharebest\Webtrees\Census;
 /**
  * Definitions for a census
  */
-class CensusOfCzechRepublic1880 extends CensusOfCzechRepublic implements CensusInterface {
+class CensusOfCzechRepublic1921 extends CensusOfCzechRepublic implements CensusInterface {
 	/**
 	 * When did this census occur.
 	 *
 	 * @return string
 	 */
 	public function censusDate() {
-		return '31 DEC 1880';
+		return '31 DEC 1910';
 	}
 
 	/**
@@ -36,15 +36,15 @@ class CensusOfCzechRepublic1880 extends CensusOfCzechRepublic implements CensusI
 	public function columns() {
 		return array(
 			new CensusColumnFullName($this, 'Jméno', ''),
-			new CensusColumnSexMZ($this, 'Pohlaví', ''),
 			new CensusColumnRelationToHead($this, 'Vztah', ''),
+			new CensusColumnSexMZ($this, 'Pohlaví', ''),
 			new CensusColumnBirthDaySlashMonthYear($this, 'Narození', 'Datum narození'),
 			new CensusColumnBirthPlace($this, 'Rodiště', 'Místo narození'),
 			new CensusColumnNull($this, 'Přísluší', 'Domovské právo'),
-			new CensusColumnReligion($this, 'Vyznání', ''),
+			new CensusColumnReligion($this, 'Vyznání', 'Vyznání náoženské'),
 			new CensusColumnNull($this, 'Stav', 'Rodinný stav'),
-			new CensusColumnNull($this, 'Jazyk', 'Jazyk v obcování'),
-			new CensusColumnOccupation($this, 'Povolání', ''),
+			new CensusColumnNull($this, 'Řeč', 'Řeč obcovací'),
+			new CensusColumnOccupation($this, 'Povolání', 'Obor povolání'),
 			new CensusColumnNull($this, 'Postavení', 'Postavení v zaměstnání'),
 			new CensusColumnNull($this, '', ''),
 			new CensusColumnNull($this, '', ''),

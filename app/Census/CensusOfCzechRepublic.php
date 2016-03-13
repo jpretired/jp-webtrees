@@ -1,7 +1,7 @@
 <?php
 /**
  * webtrees: online genealogy
- * Copyright (C) 2015 webtrees development team
+ * Copyright (C) 2016 webtrees development team
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
@@ -28,16 +28,17 @@ class CensusOfCzechRepublic extends Census implements CensusPlaceInterface {
 		return array(
 			new CensusOfCzechRepublic1880(),
 			new CensusOfCzechRepublic1900(),
+			new CensusOfCzechRepublic1910(),
 			new CensusOfCzechRepublic1921(),
 		);
 	}
 
 	/**
 	 * Where did this census occur, in GEDCOM format.
-	 *   
+	 *
 	 * @return string
 	 */
 	public function censusPlace() {
-		return 'Česko';
+		return 'Česká republika';
 	}
 }

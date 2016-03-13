@@ -1,7 +1,7 @@
 <?php
 /**
  * webtrees: online genealogy
- * Copyright (C) 2015 webtrees development team
+ * Copyright (C) 2016 webtrees development team
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
@@ -40,7 +40,7 @@ class CensusOfCzechRepublic1921 extends CensusOfCzechRepublic implements CensusI
 			new CensusColumnSexMZ($this, 'Pohlaví', ''),
 			new CensusColumnNull($this, 'Stav', 'Rodinný stav'),
 			new CensusColumnBirthDaySlashMonthYear($this, 'Narození', 'Datum narození'),
-			new CensusColumnBirthPlace($this, 'Místo', 'Místo narození'),
+			new CensusColumnBirthPlace($this, 'Rodiště', 'Místo narození'),
 			new CensusColumnNull($this, 'Přísluší', 'Domovské právo'),
 			new CensusColumnNull($this, 'Jazyk', 'Jazyk v obcování'),
 			new CensusColumnReligion($this, 'Vyznání', ''),
