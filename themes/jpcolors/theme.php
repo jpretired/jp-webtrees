@@ -64,7 +64,6 @@ class JpColors extends ColorsTheme {
 	public function themeName() {
 		return 'JpColors';
 	}
-
 	/**
 	 * This is an example function which shows how to add an additional CSS file to the theme.
 	 *
@@ -95,12 +94,44 @@ class JpColors extends ColorsTheme {
 			$this->menuMyPages(),
 			$this->menuFavorites(),
 			$this->menuThemes(),
+                        $this->menuPalette(),
 			$this->menuLanguages(),
 			$this->menuLogin(),
 			$this->menuLogout(),
 		));
 	}
+	/**
+	 * This is an example function which shows one way to remove an entry from a menu.
+	 *
+	 * @param string $surname The significant surname for the page.
+	 *
+	 * {@inheritdoc}
+	 */
+/*	public function menuLists($surname) {
+		// Start with the default "Lists" menu.
+		$menu = parent::menuLists($surname);
+		// Remove the "notes" sub-menu.
+		$submenus = array_filter($menu->getSubmenus(), function (Menu $menu) {
+			return $menu->getClass() !== 'menu-list-note';
+		});
+		// Replace the sub-menus
+		$menu->setSubmenus($submenus);
 
+		return $menu;
+	}
+*/
+        /**
+         * Jak přidat do hlavního menu nový odkaz
+         * viz: https://www.webtrees.net/index.php/en/forum/11-converting-from-phpgedview-pgv/31238-solved-menu-order
+         * @return type
+         */
+/*
+        protected function primaryMenu() {
+		$primary_menu = parent::primaryMenu();
+		$jpcolors_menu    = new Menu('JpColors', 'http://www.bvff.de/', 'menu-tree');
+		return array_merge( $primary_menu, array($jpcolors_menu));
+	}
+*/
 }
 
 return new JpColors; // This script must return a theme object.

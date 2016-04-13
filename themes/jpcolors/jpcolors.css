@@ -88,3 +88,120 @@ div#gallery-page .ui-tabs-nav li {margin: 3px; padding: 4px; font-weight: bold;}
 }
 
 #obrazek-odkazy {margin-right: 40px; margin-bottom: 16px;}
+
+/* ----------------------------------------------------------------------------------------*/
+.secondary-menu ul,
+.primary-menu ul {
+    z-index: 210
+}
+.primary-menu {
+    display: table;
+    margin: 0 auto;
+    height: 80px;
+    width: auto;
+}
+.primary-menu li {
+    float: left;
+    position: relative
+}
+.primary-menu li li:first-child {
+	margin-top: 0px;
+}
+.primary-menu li:hover>ul {
+    display: block;
+    position: absolute;
+    visibility: visible;
+    opacity: 1;
+    top: 0;
+    left: 100%;
+    right: auto;
+    margin-top: 0
+}
+.primary-menu>li:hover>ul {
+    left: 0;
+    right: auto;
+    top: 56px
+}
+.primary-menu a {
+    display: table;
+    white-space: nowrap;
+    overflow: hidden
+}
+.primary-menu li a {
+    display: block;
+    margin: auto;
+    padding-top: 22px;
+    width: 100%
+}
+.primary-menu>li>a {    /* toto je text položky menu */
+    font-weight: normal;
+    padding-top: 42px;
+    max-width: 100px;
+    white-space: normal;
+    line-height: 1.2em;
+    color: #fff
+}
+.primary-menu li li a {
+    display: block;
+    position: relative;
+    float: left;
+    font-size: 11px;
+    line-height: 1.5;
+    padding: 0 10px 1px 5px
+}
+.primary-menu>li {
+    background-image: url(images/sprites-top-menu.png);
+    background-repeat: no-repeat;
+    min-width: 60px;
+    width: auto;
+    text-align: center;
+    height: 40px;
+    margin: 4px 9px 4px 7px;
+    text-indent: 0
+}
+.primary-menu li ul li {
+    background-image: url(images/sprites-sub-menu.png);
+    background-repeat: no-repeat;
+    height: 28px;
+    left: auto;
+    line-height: 20px;
+    text-align: left;
+    text-indent: 22px;
+    width: 100%;
+    margin-bottom: -8px;
+    padding-top: 5px
+}
+.primary-menu>li>ul>li:first-child {     /* viditelnost názvu menu skryta  */
+    height: 0px;
+    display: none;
+}
+[dir=rtl] .primary-menu li {
+    float: right
+}
+[dir=rtl] .primary-menu li:hover>ul {
+    right: 100%;
+    left: auto
+}
+[dir=rtl] .primary-menu>li:hover>ul {
+    left: auto;
+    right: 0
+}
+[dir=rtl] .primary-menu li li {
+    text-align: right
+}
+[dir=rtl] .primary-menu li li a {
+    float: right;
+    padding: 1px 5px 1px 10px
+}
+.primary-menu{
+    background:#93724f  /* původně #93724f */
+}
+header {
+    height: 132px
+}
+header nav{
+    clear: both;
+    margin: 8px auto;
+    position: relative;
+    background:#93724f
+}
