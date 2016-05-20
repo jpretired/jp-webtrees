@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jpwebtrees\n"
 "POT-Creation-Date: 2015-10-19 09:39+0100\n"
-"PO-Revision-Date: 2016-03-06 08:36+0100\n"
+"PO-Revision-Date: 2016-05-20 17:52+0200\n"
 "Last-Translator: Josef Prause <josef.prause@gmail.com>\n"
 "Language-Team: JP <josef.prause@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -43,3 +43,95 @@ msgstr "<span style=\"color:red;\">Vymaže všechna rodokmenová data z „%s“
 #: app/Stats.php:6783
 msgid "Czech Republic"
 msgstr "Česko"
+
+#: app/Functions/FunctionsEdit.php:985 app/Functions/FunctionsEdit.php:989
+msgid "Add a new associate"
+msgstr "Přidat společníka"
+
+#: app/Module/RelativesTabModule.php:275
+msgid "Add a new brother or sister"
+msgstr "Přidat bratra nebo sestru"
+
+#: edit_interface.php:516
+msgid "Add a new child"
+msgstr "Přidat dítě"
+
+#: app/Module/RelativesTabModule.php:322 edit_interface.php:675 family.php:107
+msgid "Add a new father"
+msgstr "Přidat otce"
+
+#: app/Module/FamilyTreeFavoritesModule.php:203
+msgid "Add a new favorite"
+msgstr "Přidat oblíbeného"
+
+#: app/Module/GoogleMapsModule.php:4613
+msgid "Add a new geographic location"
+msgstr "Přidat geografické místo"
+
+#: app/Module/RelativesTabModule.php:387 edit_interface.php:810
+#: edit_interface.php:900
+msgid "Add a new husband"
+msgstr "Přidat manžela"
+
+#: app/Module/UserJournalModule.php:110
+msgid "Add a new journal entry"
+msgstr "Přidat do deníku záznam"
+
+#: app/Controller/FamilyController.php:196
+#: app/Functions/FunctionsEdit.php:1028 app/Module/AlbumModule.php:98
+#: app/Module/AlbumModule.php:99 app/Module/MediaTabModule.php:87
+#: source.php:160
+msgid "Add a new media object"
+msgstr "Přidat objekt médií."
+
+#: app/Module/RelativesTabModule.php:325 edit_interface.php:672 family.php:111
+msgid "Add a new mother"
+msgstr "Přidat matku"
+
+#: app/Controller/IndividualController.php:299 edit_interface.php:1655
+msgid "Add a new name"
+msgstr "Přidat jméno"
+
+#: app/Controller/FamilyController.php:183
+#: app/Functions/FunctionsEdit.php:1007 app/Module/NotesTabModule.php:95
+msgid "Add a new note"
+msgstr "Přidat poznámku"
+
+#: app/Functions/FunctionsEdit.php:1038
+msgid "Add a new restriction"
+msgstr "Přidat omezení"
+
+#: app/Controller/FamilyController.php:189
+#: app/Functions/FunctionsEdit.php:1017 app/Module/NotesTabModule.php:105
+msgid "Add a new shared note"
+msgstr "Přidat sdílenou poznámku"
+
+#: app/Module/RelativesTabModule.php:273
+msgid "Add a new son or daughter"
+msgstr "Přidat syna nebo dceru"
+
+#: app/Controller/FamilyController.php:206 app/Functions/FunctionsEdit.php:957
+#: app/Module/SourcesTabModule.php:93
+msgid "Add a new source citation"
+msgstr "Přidat pramen citací"
+
+#: edit_interface.php:837
+msgid "Add a new spouse"
+msgstr "Přidat partnera"
+
+#. I18N: Menu entry
+#: admin_users.php:265 app/Theme/AdministrationTheme.php:156
+msgid "Add a new user"
+msgstr "Přidat uživatele"
+
+#: app/Module/RelativesTabModule.php:375 edit_interface.php:807
+#: edit_interface.php:897
+msgid "Add a new wife"
+msgstr "Přidat manželku"
+
+#: app/Module/FamilyTreeNewsModule.php:148
+msgid "Add a news article"
+msgstr "Přidat novinku"
+
+msgid "Create a new shared note using assistant"
+msgstr "Vytvořit sdílenou poznámku pomocí asistenta"
