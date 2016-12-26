@@ -43,7 +43,7 @@ class VytuxPagesModule extends webtrees\Module\AbstractModule implements webtree
 
 	// Extend class WT_Module
 	public function getDescription() {
-		return webtrees\I18N::translate('Display resource pages.');
+		return webtrees\I18N::translate('Zobrazuje poznatky a pomůcky.');
 	}
 
 	// Implement WT_Module_Menu

@@ -57,7 +57,7 @@ class JosefMenuModule extends webtrees\Module\AbstractModule implements webtrees
 
 	// Extend class WT_Module
 	public function getDescription() {
-		return webtrees\I18N::translate('Provides links to custom defined pages.');
+		return webtrees\I18N::translate('Nabízí odkazy na magaziny.');
 	}
 
 	// Implement WT_Module_Menu
