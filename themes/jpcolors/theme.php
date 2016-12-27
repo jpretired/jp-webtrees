@@ -125,13 +125,13 @@ class JpColors extends ColorsTheme {
          * viz: https://www.webtrees.net/index.php/en/forum/11-converting-from-phpgedview-pgv/31238-solved-menu-order
          * @return type
          */
-/*
+
         protected function primaryMenu() {
 		$primary_menu = parent::primaryMenu();
-		$jpcolors_menu    = new Menu('JpColors', 'http://www.bvff.de/', 'menu-tree');
+		$jpcolors_menu    = new Menu('Wiki Naše rodina', 'http://wtwi.jpretired.cz/subdom/wtwi', 'jpcolors');
 		return array_merge( $primary_menu, array($jpcolors_menu));
 	}
-*/
+
 }
 
 return new JpColors; // This script must return a theme object.

@@ -13,6 +13,7 @@ line-height: 140%;
 .person_boxF, .action_headerF {
 background-color : #FFFFD6; /* pův. #fdd */
 }
+li.jpcolors {background:url(odkaz-na-wiki.png) no-repeat 50% 50%}
 /*
 Interaktivní strom:
 */
@@ -89,7 +90,8 @@ div#gallery-page .ui-tabs-nav li {margin: 3px; padding: 4px; font-weight: bold;}
 
 #obrazek-odkazy {margin-right: 40px; margin-bottom: 16px;}
 
-/* ----------------------------------------------------------------------------------------*/
+/* Centrované menu (vzhled jako u šablony webtrees) ------------------------*/
+/* nyní je zamaskované
 .secondary-menu ul,
 .primary-menu ul {
     z-index: 210
@@ -133,7 +135,7 @@ div#gallery-page .ui-tabs-nav li {margin: 3px; padding: 4px; font-weight: bold;}
     padding-top: 22px;
     width: 100%
 }
-.primary-menu>li>a {    /* toto je text položky menu */
+.primary-menu>li>a {   
     font-weight: normal;
     padding-top: 42px;
     max-width: 100px;
@@ -171,7 +173,7 @@ div#gallery-page .ui-tabs-nav li {margin: 3px; padding: 4px; font-weight: bold;}
     margin-bottom: -8px;
     padding-top: 5px
 }
-.primary-menu>li>ul>li:first-child {     /* viditelnost názvu menu skryta  */
+.primary-menu>li>ul>li:first-child {    
     height: 0px;
     display: none;
 }
@@ -194,7 +196,7 @@ div#gallery-page .ui-tabs-nav li {margin: 3px; padding: 4px; font-weight: bold;}
     padding: 1px 5px 1px 10px
 }
 .primary-menu{
-    background:#93724f  /* původně #93724f */
+    background:#93724f  
 }
 header {
     height: 132px
@@ -205,3 +207,4 @@ header nav{
     position: relative;
     background:#93724f
 }
+*/
