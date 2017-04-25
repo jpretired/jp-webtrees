@@ -40,14 +40,14 @@ class CensusOfCzechRepublic1921 extends CensusOfCzechRepublic implements CensusI
 			new CensusColumnSexMZ($this, 'Pohlaví', ''),
 			new CensusColumnNull($this, 'Stav', 'Rodinný stav'),
 			new CensusColumnBirthDaySlashMonthYear($this, 'Narození', 'Datum narození'),
-			new CensusColumnBirthPlace($this, 'Rodiště', 'Místo narození'),
+			new CensusColumnBirthPlace($this, 'Místo', 'Místo narození'),
 			new CensusColumnNull($this, 'Přísluší', 'Domovské právo'),
-			new CensusColumnNull($this, 'Jazyk', 'Jazyk v obcování'),
+			new CensusColumnNull($this, 'Národnost', 'Mateřský jazyk'),
 			new CensusColumnReligion($this, 'Vyznání', ''),
+			new CensusColumnNull($this, 'Gramotnost', 'Znalost čtení a psaní'),
 			new CensusColumnOccupation($this, 'Povolání', ''),
 			new CensusColumnNull($this, 'Postavení', 'Postavení v zaměstnání'),
-			new CensusColumnNull($this, '', ''),
-			new CensusColumnNull($this, '', ''),
+			new CensusColumnNull($this, 'Podnik', ''),
 			new CensusColumnNull($this, '', ''),
 		);
 	}

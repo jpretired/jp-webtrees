@@ -39,16 +39,16 @@ class CensusOfCzechRepublic1900 extends CensusOfCzechRepublic implements CensusI
 			new CensusColumnRelationToHead($this, 'Vztah', ''),
 			new CensusColumnSexMZ($this, 'Pohlaví', ''),
 			new CensusColumnBirthDaySlashMonthYear($this, 'Narození', 'Datum narození'),
-			new CensusColumnBirthPlace($this, 'Místo', 'Místo narození'),
+			new CensusColumnBirthPlace($this, 'Rodiště', 'Místo narození'),
 			new CensusColumnNull($this, 'Přísluší', 'Domovské právo'),
 			new CensusColumnReligion($this, 'Vyznání', ''),
 			new CensusColumnNull($this, 'Stav', 'Rodinný stav'),
 			new CensusColumnNull($this, 'Jazyk', 'Jazyk v obcování'),
 			new CensusColumnOccupation($this, 'Povolání', ''),
 			new CensusColumnNull($this, 'Postavení', 'Postavení v zaměstnání'),
-			new CensusColumnNull($this, 'Poznámka', 'Je-li třeba něco dodat'),
-			new CensusColumnNull($this, '', ''),
-			new CensusColumnNull($this, '', ''),
+			new CensusColumnNull($this, 'Gramotnost', 'Znalost čtení a psaní'),
+			new CensusColumnNull($this, 'Druh pobytu', 'Pobyt dočasný nebo trvalý'),
+			new CensusColumnNull($this, 'Od roku', 'Počátek pobytu'),
 		);
 	}
 }

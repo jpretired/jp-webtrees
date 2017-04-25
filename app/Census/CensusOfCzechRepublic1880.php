@@ -46,9 +46,8 @@ class CensusOfCzechRepublic1880 extends CensusOfCzechRepublic implements CensusI
 			new CensusColumnNull($this, 'Jazyk', 'Jazyk v obcování'),
 			new CensusColumnOccupation($this, 'Povolání', ''),
 			new CensusColumnNull($this, 'Postavení', 'Postavení v zaměstnání'),
-			new CensusColumnNull($this, '', ''),
-			new CensusColumnNull($this, '', ''),
-			new CensusColumnNull($this, '', ''),
+			new CensusColumnNull($this, 'Gramotnost', 'Znalost čtení a psaní'),
+			new CensusColumnNull($this, 'Druh pobytu', 'Pobyt dočasný nebo trvalý'),
 		);
 	}
 }

@@ -43,12 +43,12 @@ class CensusOfCzechRepublic1910 extends CensusOfCzechRepublic implements CensusI
 			new CensusColumnNull($this, 'Přísluší', 'Domovské právo'),
 			new CensusColumnReligion($this, 'Vyznání', 'Vyznání náoženské'),
 			new CensusColumnNull($this, 'Stav', 'Rodinný stav'),
-			new CensusColumnNull($this, 'Řeč', 'Řeč obcovací'),
+			new CensusColumnNull($this, 'Jazyk', 'Řeč obcovací'),
+			new CensusColumnNull($this, 'Gramotnost', 'Znalost čtení a psaní'),
 			new CensusColumnOccupation($this, 'Povolání', 'Obor povolání'),
 			new CensusColumnNull($this, 'Postavení', 'Postavení v zaměstnání'),
-			new CensusColumnNull($this, '', ''),
-			new CensusColumnNull($this, '', ''),
-			new CensusColumnNull($this, '', ''),
+			new CensusColumnNull($this, 'Druh pobytu', 'Pobyt dočasný nebo trvalý'),
+			new CensusColumnNull($this, 'Od roku', 'Počátek pobytu'),
 		);
 	}
 }
