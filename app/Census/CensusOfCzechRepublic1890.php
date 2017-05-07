@@ -18,14 +18,14 @@ namespace Fisharebest\Webtrees\Census;
 /**
  * Definitions for a census
  */
-class CensusOfCzechRepublic1880 extends CensusOfCzechRepublic implements CensusInterface {
+class CensusOfCzechRepublic1890 extends CensusOfCzechRepublic implements CensusInterface {
 	/**
 	 * When did this census occur.
 	 *
 	 * @return string
 	 */
 	public function censusDate() {
-		return '31 DEC 1880';
+		return '31 DEC 1890';
 	}
 
 	/**
