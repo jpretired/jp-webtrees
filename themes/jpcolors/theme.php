@@ -128,7 +128,7 @@ class JpColors extends ColorsTheme {
 
         protected function primaryMenu() {
 		$primary_menu = parent::primaryMenu();
-		$jpcolors_menu    = new Menu('Wiki Naše rodina', 'http://wtwi.jpretired.cz/subdom/wtwi', 'jpcolors');
+		$jpcolors_menu    = new Menu('Wiki Naše rodina', 'http://wtwi.jprodina.cz', 'jpcolors');
 		return array_merge( $primary_menu, array($jpcolors_menu));
 	}
 
