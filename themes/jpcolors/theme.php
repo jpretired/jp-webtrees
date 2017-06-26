@@ -128,11 +128,12 @@ class JpColors extends ColorsTheme {
 
         protected function primaryMenu() {
 		$primary_menu = parent::primaryMenu();
-		$jpcolors_menu    = new Menu('Wiki Naše rodina', 'http://wtwi.jprodina.cz', 'jpcolors');
-		return array_merge( $primary_menu, array($jpcolors_menu));
+		$jpcolors_menu1  = new Menu('Wiki Naše rodina', 'http://wtwi.jprodina.cz', 'jpcolors');
+		$jpcolors_menu2  = new Menu('Demo rodokmen', 'http://demo.jprodina.cz', 'jpdemoikona');
+		return array_merge( $primary_menu, array($jpcolors_menu1, $jpcolors_menu2));
 	}
-
 }
 
+ 
 return new JpColors; // This script must return a theme object.
 
