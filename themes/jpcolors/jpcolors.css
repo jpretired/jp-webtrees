@@ -13,8 +13,8 @@ line-height: 140%;
 .person_boxF, .action_headerF {
 background-color : #FFFFD6; /* pův. #fdd */
 }
-li.jpcolors {background:url(odkaz-na-wiki.png) no-repeat 50% 50%}
-li.jpdemoikona {background:url(ikona-demo-1m.jpg) no-repeat 50% 50%}
+li.jpcolors {background:url(icon-wiki-40x40.png) no-repeat 50% 50%}
+li.jpdemoikona {background:url(icon-demo-40x40.png) no-repeat 50% 50%}
 
 /*
 Interaktivní strom:
