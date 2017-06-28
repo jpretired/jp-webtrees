@@ -55,8 +55,6 @@ class CkeditorModule extends AbstractModule {
 			->addInlineJavascript('CKEDITOR.config.removePlugins = "forms,newpage,preview,print,save,templates";')
 			->addInlineJavascript('CKEDITOR.config.extraAllowedContent = 
     "area[shape,coords,href,target,alt,title];map[name];img[usemap];*[class,style]";')
-			// Disable ACF (Advanced Content Filter) - JP: dovolit vše:
-			->addInlineJavascript('CKEDITOR.config.allowedContent = true;')
 			// Activate the editor
 			->addInlineJavascript('jQuery(".html-edit").ckeditor(function(config){config.removePlugins = "forms";}, {
 				language: "' . strtolower(WT_LOCALE) . '"

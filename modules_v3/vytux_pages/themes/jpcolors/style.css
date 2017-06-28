@@ -35,4 +35,4 @@ html[dir='rtl'] #pages_config {direction:rtl; text-align:right;}
 html[dir='rtl'] #page-create {float:right;}
 
 /* Page styles */
-div#pages-container {margin:0 auto; overflow:hidden; padding:20px; width:95%;}
+div#pages-container {margin:30px 0 auto; overflow:hidden; padding:20px; width:95%;}

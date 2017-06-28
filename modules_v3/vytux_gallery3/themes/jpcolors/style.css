@@ -58,5 +58,5 @@ a#copy {clear:both;float:left;font-size:11px;font-style:italic;margin-top:-30px;
 
 // Modul vytux_gallery3 - navigační lišta:
 //
-
-div#gallery-page .ui-tabs-nav li {margin: 3px; padding: 4px; font-weight: bold;}
+div#gallery-page #gallery-container #gallery_tabs .ui-tabs-nav li {
+    margin: 3px !important; padding: 4px !important; font-weight: bold !important;}
